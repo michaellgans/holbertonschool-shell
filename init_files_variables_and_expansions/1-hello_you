@@ -1,0 +1,4 @@
+#!/bin/bash
+alias id="id -u"
+
+echo "hello $id"
