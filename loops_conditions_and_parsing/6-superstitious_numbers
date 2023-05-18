@@ -9,7 +9,7 @@ do
 	((x++))
 	case $x in
 	4)
-		printf "bad luck from Ciina"
+		printf "bad luck from China"
 		echo
 		;;
 	9)
