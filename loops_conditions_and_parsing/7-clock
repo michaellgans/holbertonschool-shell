@@ -1,0 +1,119 @@
+#!/usr/bin/env bash
+#This is a Bash script that displays the time for 12 hours and 59 minutes.
+
+m=1 #minutes
+#count2=0 #hours
+
+echo "Hour: 0"
+
+while [ $m -lt 60 ]; do
+	echo -e "$m"
+	((m++))
+done
+
+m=1
+echo "Hour: 1"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 2"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 3"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 4"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 5"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 6"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 7"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 8"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 9"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 10"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 11"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+m=1
+echo "Hour: 12"
+
+while [ $m -lt 60 ]; do
+        echo -e "$m"
+        ((m++))
+done
+
+#while [ $count1 -lt 5 ]; do 
+#	while [ $count2 -lt 5 ]; do
+#		echo -e "Hour: $count2"
+#		(($count2++))
+#	
+#		echo -e "$count1"
+#	done
+#	count2=0
+#	count1=$(($count1+1))
+#done	
