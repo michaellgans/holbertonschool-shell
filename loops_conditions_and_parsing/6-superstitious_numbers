@@ -9,15 +9,15 @@ do
 	echo -e "$x"
 	((x++))
 	case $x in
-	4)
+	5)
 		printf "bad luck from China"
 		echo
 		;;
-	9)
+	10)
 		printf "bad luck from Japan"
 		echo
 		;;
-	17)
+	18)
 		printf "bad luck from Italy"
 		echo
 		;;
