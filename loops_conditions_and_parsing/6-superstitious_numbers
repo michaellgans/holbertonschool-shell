@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#This is a while loop written in Bash that prints 1 through 20, but also indicates which numbers are bad luck in certain countries.
+
+x=0
+
+while [ $x -lt 20 ]
+do
+	printf $((x+1)) && printf "\n"
+	((x++))
+	case $x in
+	4)
+		printf "bad luck from Ciina"
+		echo
+		;;
+	9)
+		printf "bad luck from Japan"
+		echo
+		;;
+	17)
+		printf "bad luck from Italy"
+		echo
+		;;
+	esac
+done
