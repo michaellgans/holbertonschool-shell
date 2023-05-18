@@ -5,7 +5,8 @@ x=0
 
 while [ $x -lt 20 ]
 do
-	printf $((x+1)) && printf "\n"
+	#printf x && printf "\n"
+	echo -e "$x"
 	((x++))
 	case $x in
 	4)
