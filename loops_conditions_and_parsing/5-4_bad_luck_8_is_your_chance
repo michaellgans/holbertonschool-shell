@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#This while loop written in Bash that prints "Best School" 10 times, but "bad luck" on the 4th iteration and "good luck" on the 8th iteration.
+
+x=0
+
+while [ $x -lt 10 ]
+do
+	((x++))
+	if [ $x = 4 ]
+		then
+		echo "bad luck"
+	elif [ $x = 8 ]
+		then
+		echo "good luck"
+	else 
+		echo "Best School"
+	fi
+done
