@@ -12,8 +12,9 @@ if [ -f school ]; then
 		echo "school file is empty"
 		echo "school is a regular file"
 	fi
-
-else
-	echo "school file does not exist"
+elif [ -d school ]; then
+	echo "school file exists"
 	echo 
+else
+	echo "school file does not exist" 
 fi
