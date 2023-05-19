@@ -7,10 +7,10 @@ if [ -f school ]; then
 	#IF ABOVE IS TRUE AND....
 	if [ -f school ] && [ -s school ]; then #checks if empty
 		echo "school file is not empty"
-		#echo "school is a regular file"
+		echo "school is a regular file"
 	else
 		echo "school file is empty"
-		#echo "school is a regular file"
+		echo "school is a regular file"
 	fi
 
 else
