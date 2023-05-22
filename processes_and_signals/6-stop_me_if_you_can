@@ -1,11 +1,13 @@
 #!/usr/bin/env bash 
 #displays "To infinity and beyond"
 
-x=11
+#x=11
 
-while [ $x -gt 10 ]; do
-        ((x++))
-        echo "To infinity and beyond"
-        sleep 2
-	COMMAND || break
-done
+#while [ $x -gt 10 ]; do
+#        ((x++))
+#        echo "To infinity and beyond"
+#        sleep 2
+#	COMMAND || break
+#done
+
+pkill ./4-to_infinity_and_beyond
