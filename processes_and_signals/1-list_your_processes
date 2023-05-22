@@ -2,4 +2,4 @@
 #White a bash script that displays a list of currently running processes.
 #https://phoenixnap.com/kb/list-processes-linux
 
-ps aux
+ps ax
