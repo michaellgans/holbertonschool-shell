@@ -9,4 +9,4 @@
 #        sleep 2
 #done
 
-ps -e | grep bash | kill
+ps -e | pgrep bash | kill
