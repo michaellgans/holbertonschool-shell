@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#bash script that does a lot of stuff
+
+touch /var/run/myscript.pid
+echo "$(pgrep -f ./var/run/myscript.pid)" > /var/run/myscript.pid
+
+trap "echo I hate the kill command" SIGTERM
+trap "echo Y U no love me?!" SIGINT
+trap "rm /var/run/myscript.pid; exit" SIGQUIT
+
+x=11
+
+while [ $x -gt 10 ]; do
+        ((x++))
+        echo "To infinity and beyond"
+        sleep 2
+done 
