@@ -1,4 +1,4 @@
-#!/usr/bin/env bash -e
+#!/usr/bin/env bash 
 #displays "To infinity and beyond"
 
 x=11
@@ -7,4 +7,5 @@ while [ $x -gt 10 ]; do
         ((x++))
         echo "To infinity and beyond"
         sleep 2
+	COMMAND || break
 done
