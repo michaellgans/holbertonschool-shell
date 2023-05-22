@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 #White a bash script that displays a list of currently running processes.
-#https://phoenixnap.com/kb/list-processes-linux
 
-pstree -p
+ps aux
