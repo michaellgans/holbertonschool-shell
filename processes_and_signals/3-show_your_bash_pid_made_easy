@@ -2,4 +2,4 @@
 #made easy..........
 
 #pidof bash
-printf "1 bash"
+echo -n "1 bash"
