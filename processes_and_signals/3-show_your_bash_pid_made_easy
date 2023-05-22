@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 #made easy..........
 
-#pidof bash
-echo -n "1 bash"
+pgrep bash -l
