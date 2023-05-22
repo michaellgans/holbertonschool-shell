@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#displays "To infinity and beyond"
+
+exit 1
