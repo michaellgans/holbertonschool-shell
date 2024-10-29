@@ -1,2 +1,4 @@
 #!/bin/bash
+# Task 12 - Show the type of file
+
 file /tmp/iamafile

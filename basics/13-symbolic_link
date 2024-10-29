@@ -1,2 +1,4 @@
 #!/bin/bash
+# Task 13 - Create a symbolic link between two folders
+
 ln -s /bin/ls __ls__

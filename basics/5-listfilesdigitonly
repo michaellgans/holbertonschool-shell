@@ -1,2 +1,4 @@
 #!/bin/bash
+# Task 5 - Show files with: long format, hidden files, and group IDs
+
 ls -a -l -n

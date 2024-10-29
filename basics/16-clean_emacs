@@ -1,2 +1,4 @@
 #!/bin/bash
+# Task 16 - Delete all files that end with ~
+
 rm *~

@@ -1,2 +1,4 @@
 #!/bin/bash
+
+// Task 4 - Show: hidden files in long format
 ls -a -l

@@ -1,2 +1,4 @@
 #!/bin/bash
+# Task 11 - List files in specific directories
+
 ls -a -l . .. /boot

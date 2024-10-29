@@ -1,2 +1,4 @@
 #!/bin/bash
+# Task 1 - List contents of directory
+
 ls

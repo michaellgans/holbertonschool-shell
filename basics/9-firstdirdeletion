@@ -1,2 +1,4 @@
 #!/bin/bash
+#Task 9 - Remove Directory
+
 rmdir /tmp/my_first_directory

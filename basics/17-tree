@@ -1,2 +1,4 @@
 #!/bin/bash
+# Task 17 - Makes all directories in the path
+
 mkdir -p welcome/to/school

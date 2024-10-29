@@ -1,2 +1,4 @@
 #!/bin/bash
+// Task 3 - Show: files in long format
+
 ls -l

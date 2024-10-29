@@ -1,2 +1,4 @@
 #!/bin/bash
+# Task 14 - Copy all files that end in .html
+
 cp *.html ..

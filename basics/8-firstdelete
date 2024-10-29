@@ -1,2 +1,4 @@
 #!/bin/bash
+#Task 8 - Remove Betty
+
 rm /tmp/my_first_directory/betty

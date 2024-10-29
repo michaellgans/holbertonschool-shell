@@ -1,2 +1,4 @@
 #!/bin/bash
+# Task 6 - Make a Directory
+
 mkdir /tmp/my_first_directory

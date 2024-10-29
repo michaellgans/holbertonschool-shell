@@ -1,2 +1,3 @@
 #!/bin/bash
+# Task 15 - Move all files beginning with an uppercase
 mv [[:upper:]]* /tmp/u 
